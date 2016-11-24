@@ -1,8 +1,241 @@
-/* Styles for Product Page Customization */
-/* NOTE: Do not edit the Bootstrap CSS files. */
+/* styles for the product page */
 
-body {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    color: green;
+body{
+	background-image: url("http://i.imgur.com/wy2jQaA.png");
+	width: 100%;
+	background-repeat: repeat-y;
+	font-family: verdana;
+	letter-spacing: 1px;
+}
+
+.header{
+	width: 100%;
+	background: rgba(69, 99, 175, 1);
+	position: fixed;
+	top: 0px;
+}
+
+.header img{
+	margin-left: 1%;
+	
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+	margin-top: 20px;
+	margin-left: 5px;
+	position: fixed;
+	top: 10%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(177, 186, 209, 0.5);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color: blue;
+}
+
+.dropdown a:hover{
+    color: black;
+}
+
+#Intro{
+	margin-left: 5%;
+	margin-top: 10%;
+	height: 500px;
+	background: rgba(236, 239, 247, 0.5);
+	width: 90%;
+	font-size: 1.2em;
+}
+
+#Intro p{
+	width: 50%;
+	line-height: 2;
+	
+}
+
+.fineprint{
+	font-size: 0.5em;
+	
+}
+
+.video{
+	float: right;
+	margin-right: 5%;
+	
+}
+
+#Features{
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-right: 5%;
+	height: 750px;
+	background: rgba(236, 239, 247, 0.5);
+}
+
+#Features p{
+	width: 60%;
+	line-height: 3;
+	font-size: 1.2em;
+}
+
+.featureimages{
+	float: right;
+	
+}
+
+#Testimonials{
+	margin-left: 10%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+
+.KenSarc{
+	height: 210px;
+	width: 95%;
+}
+
+.KenSarc p{
+	background: rgba(236, 239, 247, 0.5);
+	height: 200px;
+	text-align: center;
+}
+
+.KenSarc img{
+	margin-right: 5%;
+}
+
+.JamWern{
+	height: 210px;
+	width: 90%;
+}
+
+.JamWern p{
+	height: 200px;
+	background: rgba(210, 219, 243, 0.5);
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.JamWern img{
+	margin-left: 5%;
+}
+
+#KenM{
+	font-size: 1.9em;
+	
+}
+
+#Jameson{
+	font-size: 1.2em;
+	
+}
+
+#Sarcasm{
+	font-size: 1.9em;
+	
+}
+
+#Herzog{
+	font-size: 1.7em;
+	
+}
+
+.portrait{
+	float: left;
+	margin-left: 0%;
+}
+
+.portrait1{
+	float: right;
+	margin-right: 10%;
+}
+
+#Testimonials div p{
+	width: 85%;
+	
+}
+
+#Purchase{
+	margin-left: 5%;
+	margin-top: 10%;
+	
+}
+
+.btn-buy{
+	background: lightblue;
+	margin-left: 2%;
+	
+}
+
+.harold{
+	float: left;
+	
+}
+
+.Buy{
+	height: 210px;
+	width: 90%;
+}
+
+.Buy p{
+	margin-left: 15%;
+	width: 70%;
+}
+
+#Basic{
+	background: rgba(236, 239, 247, 0.5);
+
+}
+
+#Basic p{
+	font-size: 1.4em;
+}
+
+#Business{
+	background: rgba(210, 219, 243, 0.5);
+	
+}
+
+#Business p{
+	font-size: 1.4em;
+}
+
+#Capcom{
+	background:rgba(164, 184, 233, 0.5);
+	
+}
+
+#Capcom p{
+	font-size: 1.3em;
+}
+
+.SuperTurbo{
+	width: 300px;
+}
+
+.bottombar{
+	margin-top: 50px;
+	width: 100%;
+	background: lightblue;
+	height: 3%;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+.bottombar p{
+	margin-left: 7%;
 }
