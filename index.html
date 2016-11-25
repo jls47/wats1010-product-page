@@ -20,15 +20,15 @@
 </div>
 
 
-<nav class="dropdown">
+<div class="dropdown">
   <button type="button" class="btn btn-info">Navigate</button><br><br>
-  <nav class="dropdown-content">
+  <div class="dropdown-content">
       <button type="button" class="btn btn-info"><a href="#Intro">Introduction</a></button><br><br>
 	  <button type="button" class="btn btn-info"><a href="#Features">Features</a></button><br><br>
       <button type="button" class="btn btn-info"><a href="#Testimonials">Testimonials</a></button><br><br>
       <button type="button" class="btn btn-info"><a href="#Purchase">Purchase The <br>API Superstore!</a></button>
-  </nav>
-</nav>
+  </div>
+</div>
 
 <div class="Share">
   <button type="button" class="btn btn-info">Sharing is Caring!</button><br><br>
@@ -71,10 +71,10 @@
 
 <div id="Features">
 
-	<figure class = "featureimages">
+	<div class = "featureimages">
 		<img src="http://i.imgur.com/OapEduN.png"/><br>
 		<img src="http://i.imgur.com/LXdMCt9.png"/>
-	</figure>
+	</div>
 	
 	<h2>The Web's Swiss Army Knife!</h2>
 	
@@ -140,6 +140,7 @@
 		function SF1(){
 			var music = new Audio('Bad.wav');
 			music.play();
+			confirm("Really?")
 		}
 		</script>
 		
@@ -154,6 +155,7 @@
 		function SF2(){
 			var music = new Audio('Gettingthere.wav');
 			music.play();
+			confirm("C'mon now, don't be skimpy!");
 		}
 		</script>
 		
@@ -168,6 +170,7 @@
 		function SF3(){
 			var music = new Audio('Poweredup.wav');
 			music.play();
+			confirm("Alright, now we're getting somewhere!")
 		}
 		</script>
 		
@@ -181,7 +184,7 @@
 	
 </div>
 
-<footer class = "bottombar">
+<div class = "bottombar">
 	<p>John Luke Schaefer 2016</p>
 </div>
 
