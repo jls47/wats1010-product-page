@@ -8,6 +8,10 @@ body{
 	letter-spacing: 1px;
 }
 
+body p{
+	font-weight: bold;
+}
+
 .header{
 	width: 100%;
 	background: rgba(69, 99, 175, 1);
